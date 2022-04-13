@@ -6,7 +6,7 @@ function createGame() {
     }
 
     function start() {
-        setInterval(spawnFruit, 1)
+        setInterval(spawnFruit, 1000)
     }
 
     function addPlayer(command) {
