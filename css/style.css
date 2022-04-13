@@ -1,0 +1,45 @@
+body {
+    background-color: #0e0e10;
+    color: #efeff1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    display: block;
+    position: absolute;
+
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 10px 5px 4px black;
+}
+
+table {
+    text-align: center;
+    color: #efeff1;
+    margin: auto 200px 0 auto;
+    resize: none;
+}
+
+#title {
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px black;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px white, 0 0 30px #9438FF;
+      }
+
+      to {
+        text-shadow: 0 0 20px white 0 0 30px #9438FF;
+      }   
+}
